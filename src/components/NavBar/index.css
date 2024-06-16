@@ -1,0 +1,32 @@
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  list-style: none;
+}
+.nav-bar-logo {
+  width: 80px;
+}
+.insider {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logout-btn {
+  background-color: #6366f1;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-size: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-bar li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}

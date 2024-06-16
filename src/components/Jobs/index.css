@@ -1,0 +1,79 @@
+.jobs-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  /* overflow-y: hidden; */
+}
+.bottom-section {
+  width: 100%;
+  height: calc(100vh - 50px);
+  display: flex;
+  /* gap: 20px; */
+  padding: 20px;
+}
+.type-emp-list {
+  list-style: none;
+  color: #fff;
+  display: inline;
+  gap: 5px;
+}
+.checkbox-list {
+  color: #fff;
+  font-size: 12px;
+}
+.ul-card-items {
+  list-style: none;
+  height: calc(100vh - 130px);
+  display: flex;
+  /* display: inline; */
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow: scroll;
+}
+.ul-card-items::-webkit-scrollbar {
+  display: none;
+}
+.input-container {
+  margin-bottom: 25px;
+}
+.left-side {
+  width: 200px;
+}
+.right-side {
+  width: calc(100vw - 200px);
+}
+.profile-card {
+  width: 170px;
+  height: 150px;
+  background: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 10px;
+}
+.profile-card img {
+  width: 40px;
+}
+.profile-card h1 {
+  font-size: 14px;
+  color: #4f46e5;
+}
+.profile-card p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #64748b;
+}
+.search-input {
+  width: 230px;
+  background-color: transparent;
+  border: 2px solid #64748b;
+  padding: 3px 10px;
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 35px;
+}
+.search-icon {
+  background-color: #272727;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
